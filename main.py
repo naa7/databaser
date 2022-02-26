@@ -148,7 +148,7 @@ try:
     def main():
         #data = dict(zip(database.Usernames[:-1], database.Passwords[:-1]))
         class_call = Database()
-
+        class_call.clear()
         while True:
             try:
                 if class_call.authentication():
